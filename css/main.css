@@ -1,5 +1,64 @@
-h1 {
-  font-size: 30px;
-  background: green; }
+.top-header {
+  background: #273353;
+  padding: 5px 0; }
+  .top-header .social-icon {
+    width: auto; }
+    .top-header .social-icon ul {
+      width: auto;
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .top-header .social-icon ul li {
+        margin-right: 10px; }
+        .top-header .social-icon ul li a {
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          color: #7f7f7f;
+          vertical-align: middle;
+          border: 1px solid #7f7f7f;
+          display: block;
+          text-align: center;
+          line-height: 30px; }
+          .top-header .social-icon ul li a:hover {
+            color: #fff;
+            border-color: #fff; }
+          .top-header .social-icon ul li a i {
+            line-height: normal;
+            font-size: 18px; }
+  .top-header .chat {
+    width: auto;
+    position: relative; }
+    .top-header .chat p {
+      text-transform: uppercase;
+      color: #fff;
+      line-height: normal;
+      font-size: 18px;
+      margin-bottom: 0;
+      padding-right: 50px; }
+    .top-header .chat .chat-bubble {
+      top: 8px;
+      right: 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      text-align: center;
+      background-color: #12a5f4;
+      color: #fff;
+      font-size: 20px;
+      line-height: 36px;
+      position: absolute; }
+      .top-header .chat .chat-bubble:hover {
+        -webkit-box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.1);
+        box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.1); }
+
+a,
+a:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
 
 /*# sourceMappingURL=main.css.map */
