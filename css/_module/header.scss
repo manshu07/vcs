@@ -57,10 +57,16 @@
             font-size: 20px;
             line-height: 36px;
             position: absolute;
+            z-index: 1;
             &:hover {
                 @include box-shadow;
             }
 
         }
     }
+}
+
+//main navigation
+.navbar-default {
+    background: rgba(52, 58, 80, 0.8)
 }
